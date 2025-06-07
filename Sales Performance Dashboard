@@ -1,0 +1,4 @@
+#Created DAX measures:
+Total Sales = SUM(Sales[SalesAmount])
+Total Quantity = SUM(Sales[Quantity])
+Profit Margin = DIVIDE(SUM(Sales[Profit]), SUM(Sales[SalesAmount]))
